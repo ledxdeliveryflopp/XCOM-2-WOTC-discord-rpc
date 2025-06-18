@@ -1,0 +1,210 @@
+UIAvengerHUD // Мститель
+UILoadGame // загрузка
+UIStrategyMap // стратегическая карта(которая большая)
+UIOptionsPCScreen // настройки
+MCM_OptionsScreen // настройка модов
+UIPersonnel_Armory // оружейная(список солдат)
+UIFacility_CovertActions
+UICovertActions // список операций фракций
+UIBlackMarket // черный рынок
+
+UISL-RPC: RPC-SCREEN: UIStrategyMap
+
+ScriptLog: SITREPS COMPLETED
+[0594.28] ScriptLog: ==============================
+[0594.28] ScriptLog: IN PLAY:
+[0594.28] ScriptLog: 1. HighExplosives
+[0594.28] ScriptLog: 2. PsionicStorm
+[0594.28] ScriptLog: 3. ShadowSquad
+
+// ситрепы на задание
+
+UIMission_Retaliation // окно террора
+
+robojumper_UISquadSelect // окно отряда (с модом от robojumper)
+UIPersonnel_SquadSelect // окно отряда (обычное)
+
+CPS_UIArmory_PromotionHero // окно повышения
+
+UIKodiakArrives // отлет рейнджера(модовый)
+
+UIPauseMenu // пауза
+
+[1069.27] Log: X2TacticalGameRuleset_0 TurnPhase_UnitActions: Check for Available Actions
+[1069.27] Log: X2TacticalGameRuleset_0 TurnPhase_UnitActions: Going to the Next Player
+[1069.32] Log: X2TacticalGameRuleset_0 TurnPhase_UnitActions: Waiting for Visualizer: 1
+[1069.40] Log: X2TacticalGameRuleset_0 TurnPhase_UnitActions: Check for Available Actions
+[1069.40] Log: X2TacticalGameRuleset_0 TurnPhase_UnitActions: Available Actions
+
+[1056.70] Log: Kismet: <<<<  Processing Start of XCom Turn >>>>
+[1056.70] Log: Kismet:  1 : Starting turn
+[1056.70] Log: Kismet:  X : Trigger alien strike group
+[1056.70] Log: Kismet:  X : Engaging alien strike team
+[1056.71] Log: Kismet:  X : Alien strike group engage finished
+[1056.71] Log: Kismet:  X : Engaging fireteam
+[1056.74] Log: Kismet:  X : Fireteam engage finished
+
+// предположительно чет связано с действиями  в терроре
+
+[1054.84] Log: Kismet: << Processing Civilian List >>
+[1054.86] Log: Kismet:  FacelessCivilian : Filtered non-civilian unit out of list
+[1054.86] Log: Kismet:  X : Updating civilian list counts
+[1054.86] Log: Kismet:  13 : Civilian units in play
+[1054.86] Log: Kismet:  0 : Civilian units killed
+[1054.86] Log: Kismet:  0 : Civilian units extracted
+
+[1054.83] Log: Kismet: << Processing Resistance List >>
+[1054.84] Log: Kismet:  X : Updating resistance list counts
+[1054.84] Log: Kismet:  6 : Resistance units in play
+[1054.84] Log: Kismet:  0 : Resistance units killed
+[1054.84] Log: Kismet:  0 : Resistance units extracted
+
+// бойцы сопротивления
+
+// список гражданских на терроре?
+
+
+[1054.82] Log: Kismet: <<<< Mission Startup Block >>>>
+[1054.82] Log: Kismet:  >> Pulling retaliationdefense INI values
+[1054.82] Log: Kismet:  >> Pulling global INI values
+
+// террор
+
+[1054.83] Log: Kismet: << Processing XCom Unit List >>
+[1054.83] Log: Kismet:  6 : Units registered to XCOM squad list
+[1054.83] Log: Kismet:  X : Updating XCOM list counts
+[1054.83] Log: Kismet:  6 : XCOM squad units in play
+[1054.83] Log: Kismet:  0 : XCOM squad units killed
+[1054.83] Log: Kismet:  0 : XCOM squad units extracted
+
+// xcom солдаты
+
+
+[1043.85] UISL-RPC: Screen initialized: UIMissionIntro
+[1043.85] UISL: Screen initialized: UIMissionIntro
+[1043.85] Log: Kismet:  ReaperSoldier added to intro
+[1043.85] Log: Kismet:  Soldier added to intro
+[1043.85] Log: Kismet:  Soldier added to intro
+[1043.85] Log: Kismet:  SkirmisherSoldier added to intro
+[1043.85] Log: Kismet:  Soldier added to intro
+[1043.85] Log: Kismet:  Soldier added to intro
+[1043.85] Log: Kismet:  6 units parsed for intro
+
+// загрузка миссии + типы солдат
+
+UITacticalHUD // тактический режим?
+
+UITurnOverlay
+
+XCom_Maps: , Plot_SHN_OvergrownCity_EZR, Temperate, 46.01 // карта (это модовая)
+4742.14] XCom_Maps: , Plot_TWN_Guerilla_LgObj_Fence, Temperate, 63.05
+[7168.11] XCom_Maps: , Plot_CTY_Vehicle_Blvd, , 47.02
+[8818.93] XCom_Maps: , Plot_SLM_Train_Overpass, , 31.84
+[10047.32] XCom_Maps: , Plot_WLD_Sabotage_MdObj_Stream, Xenoform, 24.23 // штурм объекта
+
+
+og: Kismet: <<<<  Processing Start of XCom Turn >>>>
+[1540.42] Log: Kismet:  2 : Starting turn
+
+// начало хода xcom + коллво раундов
+
+Log: Kismet: >> Handle death of Alien unit
+
+[1878.51] Log: Kismet: >> Handle death of Alien unit
+[1878.51] Log: Kismet:  0 : Remaining strike group members
+[1878.51] Log: Kismet: >> Alien strike group was destroyed
+[1878.51] Log: Kismet:  >> Processing rescue of resistance fire team
+[1878.51] Log: Kismet:  X : Executing fireteam rescue
+[1878.51] Log: Kismet:  X : Sending militia to defense point
+[1878.97] Log: Kismet:  X : Sending militia to defense point
+[1879.44] Log: Kismet:  X : Rescuing civilian
+[1879.44] Log: Kismet: << Handling rescue of a civilian unit >>
+[1879.44] Log: Kismet:  X : Updating civilian list counts
+[1879.44] Log: Kismet:  12 : Civilian units in play
+[1879.44] Log: Kismet:  0 : Civilian units killed
+[1879.44] Log: Kismet:  1 : Civilian units extracted
+[1879.55] Log: Kismet:  X : Rescuing civilian
+[1879.55] Log: Kismet: << Handling rescue of a civilian unit >>
+[1879.55] Log: Kismet:  X : Updating civilian list counts
+[1879.55] Log: Kismet:  11 : Civilian units in play
+[1879.55] Log: Kismet:  0 : Civilian units killed
+[1879.55] Log: Kismet:  2 : Civilian units extracted
+[1879.63] Log: Kismet:  X : Rescuing civilian
+[1879.63] Log: Kismet: << Handling rescue of a civilian unit >>
+[1879.63] Log: Kismet:  X : Updating civilian list counts
+[1879.63] Log: Kismet:  10 : Civilian units in play
+[1879.63] Log: Kismet:  0 : Civilian units killed
+[1879.63] Log: Kismet:  3 : Civilian units extracted
+[1879.74] Log: Kismet:  X : Rescuing civilian
+[1879.74] Log: Kismet: << Handling rescue of a civilian unit >>
+[1879.74] Log: Kismet:  X : Updating civilian list counts
+[1879.74] Log: Kismet:  9 : Civilian units in play
+[1879.74] Log: Kismet:  0 : Civilian units killed
+[1879.74] Log: Kismet:  4 : Civilian units extracted
+[1879.83] Log: Kismet:  X : Finished rescuing fireteam members
+
+// убийство ударной группы и пробег сопротивления к другой группе
+
+Log: Kismet:  3 : Remaining strike group members // коллво бойцов в ударной группе
+
+
+UIMissionSummary // итоги задания
+
+[2784.86] Log: Kismet: >> Aliens out of playable units
+[2784.86] ScriptLog: DLC2 OnTacticalGameEnd
+
+// врагов не осталось
+
+Log: Kismet: >> Handle death of Alien unit // смерть врага
+
+[2640.87] Log: Kismet: << Handling death of a resistance unit >>
+[2640.87] Log: Kismet:  X : Updating resistance list counts
+[2640.87] Log: Kismet:  4 : Resistance units in play
+[2640.87] Log: Kismet:  2 : Resistance units killed
+[2640.87] Log: Kismet:  0 : Resistance units extracted
+
+// ну понятно
+
+UIAfterAction // отряд с задания
+
+[8943.23] Log: Kismet:  X : Lost exterminated, disabling system
+[8943.24] Log: Kismet:  9 : Alien units remaining
+[8943.24] Log: Kismet:  X : Alien units remain, mission continues
+
+Log: Kismet: << XCOM : Concealment Broken >>
+
+ Log: Kismet: << Handling death of an XCOM controlled unit >>
+
+[11253.59] Log: Kismet:  X : Updating XCOM list counts
+[11253.59] Log: Kismet:  4 : XCOM squad units in play
+[11253.59] Log: Kismet:  2 : XCOM squad units killed
+[11253.59] Log: Kismet:  0 : XCOM squad units extracted
+
+[11997.34] Log: Kismet: << Handling extraction of an XCOM controlled unit >>
+[11997.40] Log: Kismet:  X : Updating XCOM list counts
+[11997.40] Log: Kismet:  0 : XCOM squad units in play
+[11997.40] Log: Kismet:  3 : XCOM squad units killed
+[11997.40] Log: Kismet:  3 : XCOM squad units extracted
+
+[12253.91] Exit: Exiting.
+
+Log: Kismet:  11 : Unresolved crates
+
+[4067.34] Log: Kismet:  12 : Requested number of crates
+
+[7773.01] Log: Kismet:  X : Commander is dead, no timer handling
+
+[7600.40] Log: Kismet: << XCOM : Concealment Broken >>
+
+580.74] Log: Kismet:  X : Pulling neutralize field commander ini values
+
+XCom_Maps: , Plot_TUN_SubwayExit_Guerilla_TLE, , 90.61
+
+UIMission_GoldenPath // штурм комплекса по сюжету?(пробирка)
+Log: Kismet: Blacksite POI Spotted // спалили пробирку
+XCom_Maps: , Plot_WLD_GP_Blacksite_01, Tundra, 53.37 // одна из вариаций карты
+
+
+UIDropShipBriefing_MissionStart // полет до задания?
+
+Log: TacticalGRI::InitBattle:
