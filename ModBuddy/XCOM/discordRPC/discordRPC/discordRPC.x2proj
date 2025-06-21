@@ -3,7 +3,9 @@
   <PropertyGroup>
     <Guid>48a6916e-6aab-489f-a5c9-c190b6f13a4b</Guid>
     <Name>discordRPC</Name>
-    <Description>Description of My XCOM 2 Mod.</Description>
+    <Description>Description of My XCOM 2 Mod.
+
+tags= War Of The Chosen, Gameplay, Discord, RPC, rich presence</Description>
     <SteamPublishID>0</SteamPublishID>
     <AssemblyName>discordRPC</AssemblyName>
     <RootNamespace>discordRPC</RootNamespace>
@@ -24,6 +26,9 @@
     <Content Include="Config\XComGame.ini" />
     <Content Include="Localization\XComGame.int" />
     <Content Include="Src\discordRPC\Classes\UISLRPCListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\discordRPC\Classes\RPCContentInfo.uc">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

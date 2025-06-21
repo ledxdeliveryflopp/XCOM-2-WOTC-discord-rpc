@@ -1,0 +1,18 @@
+[project]
+name = "xcom-2-wotc-discord-rpc"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "LedxDeliveryFLopp",email = "korstim18@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "pypresence @ https://github.com/qwertyquerty/pypresence/archive/master.zip",
+    "loguru (>=0.7.3,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

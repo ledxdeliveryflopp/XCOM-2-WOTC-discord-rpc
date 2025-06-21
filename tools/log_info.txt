@@ -208,3 +208,25 @@ XCom_Maps: , Plot_WLD_GP_Blacksite_01, Tundra, 53.37 // одна из вариа
 UIDropShipBriefing_MissionStart // полет до задания?
 
 Log: TacticalGRI::InitBattle:
+
+UIChosenReveal
+
+UIResistanceReport// месяц прошел
+UIStrategyPolicy // выбор баффов фракций
+
+Core OP mission type: SwarmDefense // спасаем випа и дефаем несколько ходов до эвака
+
+[1971.30] Exit: Exiting. // сохранять ласт состояние игры если это бой
+
+[5862.80] Log: Kismet: << Handling death of a civilian unit >>
+[5862.80] Log: Kismet:  X : Updating civilian list counts
+[5862.80] Log: Kismet:  0 : Civilian units in play
+[5862.80] Log: Kismet:  10 : Civilian units killed
+[5862.83] Log: Kismet:  3 : Civilian units extracted
+
+[5733.63] Log: Kismet: << Handling death of a civilian unit >>
+[5733.63] Log: Kismet:  X : Updating civilian list counts
+[5733.63] Log: Kismet:  1 : Civilian units in play
+[5733.63] Log: Kismet:  9 : Civilian units killed
+[5733.63] Log: Kismet:  3 : Civilian units extracted
+[5733.63] Log: Kismet:  X : Not enough civilians left to complete mission
